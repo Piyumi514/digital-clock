@@ -15,9 +15,9 @@ const DigitalClock = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Digital Clock</h1>
-      <h2>{time.toLocaleTimeString()}</h2>
+    <div style={{textAlign:"center"}}>
+            <h1>Digital Clock</h1>
+            <h2>{time.toLocaleTimeString()}</h2>
     </div>
   );
 };
