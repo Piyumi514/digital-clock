@@ -12,13 +12,13 @@ const DigitalClock = () => {
     return () => {
       clearInterval(timerID);
     };
-  }, []);
+  },[]);
 
   return (
     <div style={{textAlign:"center",
         backgroundImage:'url(${backgroundImage})',
         height:"100vh",
-        display:'flex',
+        // display:'flex',
         alignItems:'center'
     }}>
             <h1>Digital Clock</h1>
